@@ -15,4 +15,10 @@ struct {
     u8 moved;
 }TPlayer;
 
+struct {
+    TPhysics ph;
+    u8 x,y,px,py;
+    u8 moved;
+}Tenemy;
+
 #endif
